@@ -75,7 +75,7 @@ if(mysqli_num_rows($result) == 1)
 {
     session_start();
 $_SESSION['name'] = $name; // Initializing Session
-header("location: home.php?success=you are logged in");
+header("location: welcome.php?success=you are logged in");
 }else{
     header("location: index.php?error=invalid email or password");
 }
