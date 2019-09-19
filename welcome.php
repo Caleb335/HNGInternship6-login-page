@@ -67,16 +67,12 @@ if(count($_SESSION)< 1){
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4">
-						<img src="images (1).jpeg">
 						<p>We develop and solve software problems</p>
 					</div>
 					<div class="col-md-4">
-						<img src="download.png">
 						<p>We provide our clients with professional business ideas</p>
 					</div>
 					<div class="col-md-4">
-						<img src="download (1) (1).png">* {box-sizing: border-box;}
-
 						<p>We help to increase organisation performance</p>
 					</div>
 				</div>
