@@ -1,0 +1,272 @@
+/* All styles here */
+/* All styles here */
+* {
+	margin: 0;
+	padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+	background-position: center center;
+	font-family: merienda, cursive;
+	/*background-position: center;*/
+}
+.loginbox {
+	width: 40%;
+	color: black;
+	height: 50%;
+	margin-left: 30%;
+	margin-top: 100px;
+    border-radius: 5px;
+	position: absolute;
+	border: none;
+    padding: 70px 30px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.38);
+	font-family: montserrat, sans-serif;
+}
+
+.avatar{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    transform: translate(-50%);
+	top: -50px;
+	left: calc(20% -20px);
+}
+input{
+	width: 100%;
+	margin-bottom: 20px;
+	outline: none;
+	padding: 5px 5px 5px 15px;
+	height: 25px;
+	border-radius: 10px;
+	color: black;
+}
+
+.loginbox input[type="email"], input[type="password"]{
+	border: none;
+    border-radius: 8px;
+	outline: none;
+	height: 10%;
+	color: black;
+	font-size: 19px;
+	font-weight: 600;
+    padding-left: 10px;
+}
+
+/* signup page */
+
+.loginbox1 {
+	width: 40%;
+	color: black;
+	height: 67%;
+	margin-left: 30%;
+	margin-top: 4.5%;
+    border-radius: 5px;
+	position: absolute;
+	border: 1px solid;
+    padding: 70px 30px;
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.38);
+	font-family: montserrat, sans-serif;
+}
+
+.loginbox1 input[type="email"], 
+	input[type="password"], 
+	input[type="text"] {
+	border: none;
+    border-radius: 8px;
+	outline: none;
+	height: 10%;
+	color: black;
+	font-size: 19px;
+	font-weight: 600;
+    padding-left: 10px;
+}
+
+.loginbox1 input {
+	margin-left: -2%;
+}
+
+.already {
+	color: grey;
+	margin-top: 5%;
+}
+
+.sign-up {
+	border: none;
+	background: green;
+	color: #fff;
+	margin-top: 4%;
+	border-radius: 5px;
+	height: 40px;
+}
+
+.errorMessage1 {
+	margin-bottom: 12px;
+	padding: 10px;
+	background: #e91c23;
+	text-align: center;
+	color: #fff;
+	font-size: 1rem;
+	transition: all cubic-bezier(0.075, 0.82, 0.165, 1) ease;
+}
+
+.successMessage1 {
+	margin-bottom: 12px;
+	padding: 10px;
+	background: rgb(44, 211, 11);
+	text-align: center;
+	color: #fff;
+	font-size: 1rem;
+	transition: all cubic-bezier(0.075, 0.82, 0.165, 1) ease;
+}
+
+.loginbox1 #errorMessage1 {
+	margin-bottom: 12px;
+	padding: 0px;
+	background: #e91c23;
+	text-align: center;
+	color: #fff;
+	font-size: .9rem;
+	transition: all cubic-bezier(0.075, 0.82, 0.165, 1) ease;
+}
+
+.sign-up:hover {
+	cursor: pointer;
+	background: black;
+	color: #fff;
+	transform: translateY(-1px);
+}
+
+/* code for signup page ends here */
+
+input[type="email"]:hover {
+	cursor: pointer;
+    transform: translateY(-2px);
+    border: 1px solid lightgreen;
+}
+input[type="password"]:hover {
+	cursor: pointer;
+    transform: translateY(-2px);
+	border: 1px solid lightgreen;
+}
+
+input[type="text"]:hover {
+	cursor: pointer;
+    transform: translateY(-2px);
+	border: 1px solid lightgreen;
+}
+
+.loginbox input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: green;
+	color: #fff;
+	font-size: 23px;
+	font-family: merienda, cursive; 
+	border-radius: 8px;
+}
+.loginbox input[type="submit"]:hover{
+	cursor: pointer;
+	background: black;
+	color: #fff;
+	transform: translateY(-1px);
+}
+
+.loginbox #errorMessage {
+	margin-bottom: 12px;
+	padding: 0px;
+	background: #e91c23;
+	text-align: center;
+	color: #fff;
+	font-size: .9rem;
+	transition: all cubic-bezier(0.075, 0.82, 0.165, 1) ease;
+}
+
+.fourloop{
+	text-align: center;
+}
+.loop{
+	font-family: merienda, cursive;
+	text-align: center;
+	color: #054F22;
+	font-size: 48px;
+	font-weight: bold;
+}
+.four{
+	font-family: Oleo Script, sans-serif;
+	text-align: center;
+	font-size: 48px;
+	font-weight: bold;
+}
+a{
+	text-decoration: none;
+}
+.forgot{
+	margin-bottom: 4%;
+	text-align: center;
+}
+
+.sign {
+	text-align: center;
+	font-size: .8rem;
+	margin-top: 5%;
+}
+
+.sign:hover {
+	color: #000;
+}
+
+@media screen and (max-width: 560px) {
+	body{
+		background-size: contain;
+		background-position: top;
+	}
+    .loginbox {
+		width: 75%;
+		margin-left: 8%;
+		border: none;
+		box-shadow: none;
+		margin-right: 0;
+		box-sizing: none;
+	}
+
+	.loginbox1 {
+		width: 75%;
+		margin-top: 16%;
+		margin-left: 8%;
+		border: none;
+		box-shadow: none;
+		margin-right: 0;
+		box-sizing: none;
+	}
+
+	.four, .loop{
+		font-size: 28px;
+
+	}
+	.fourloop{
+		margin-top: -30px;
+	}
+	input[type="submit"]{
+		width: 108%;
+	}
+	.dont{
+		font-size: 12px;
+		margin-top: 10px;
+	}
+	.forgot{
+		margin-left: 0px;
+		font-size: 12px;
+	}
+	.avatar{
+		height: 80px;
+		width: 80px;
+	}
+	input{
+		margin-bottom: 10px;
+		margin-left: 0;
+	}
+}
