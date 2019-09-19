@@ -1,7 +1,7 @@
  <?php include('layout/header.php');?>
  <?php 
 if(count($_SESSION) > 0){
-    header('Location: home.php');
+    header('Location: welcome.php');
     exit();
 }?>
  <?php //if(isset($_GET['error'])){ ?>
