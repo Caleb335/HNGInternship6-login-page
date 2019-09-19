@@ -130,6 +130,10 @@ input{
 	transform: translateY(-1px);
 }
 
+.sign-up:focus {
+	cursor: auto;
+}
+
 /* code for signup page ends here */
 
 input[type="email"]:hover {
