@@ -2,7 +2,7 @@
 <?php 
 include('layout/header.php');
 if(count($_SESSION) > 0){
-    header('Location: home.php');
+    header('Location: welcome.php');
     exit();
 }?>
     <!-- all code go here -->
