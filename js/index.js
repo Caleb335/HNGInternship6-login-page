@@ -73,14 +73,14 @@ function validateSignUp () {
     }
     
     if (password == "") {
-        text1 = "in put your password please.";
+        text1 = "input your password please.";
         errorMessage1.innerHTML =text1;
         document.getElementById('password').focus();
         return false;
     }
     
-    if (password.length < 8 || password.length > 12) {
-        text1 = "Password should not be less than 8 or greater than 12 characters.";
+    if (password.length < 8) {
+        text1 = "Password should be a minimum of 8 characters.";
         errorMessage1.innerHTML = text1;
         document.getElementById('password').focus();
         return false;
